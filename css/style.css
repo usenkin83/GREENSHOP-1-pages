@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+}
+
+header {
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+header .logo {
+    margin-bottom: 18px;
+}
+
+header nav a {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+header .login {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 17px;
+    background: #46a358;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+
+}
+
+header .login:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../imagis/Logout.svg");
+    margin-right: 4px;
+}
+
+header nav li:after {
+    display: block;
+    width: 0;
+    content: "";
+    background-color: #46a358;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+
+header nav li:hover:after {
+    width: 100%;
+}
+
+main {
+    padding-left: 40px;
+}
+
+main h2 {
+    padding-top: 68px;
+    padding-bottom: 7px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+
+main h1 {
+    max-width: 693px;
+    padding-bottom: 5px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+
+}
+
+main h1 .PLANET {
+    color: #46a358;
+}
+
+main h3 {
+    max-width: 693px;
+    padding-bottom: 44px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+}
+
+main .SHOPNOW {
+    max-width: 140px;
+    height: 40px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 17px;
+    color: #fff;
+    background: #46a358;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+
+}
+main section{
+    max-width: 1200px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
